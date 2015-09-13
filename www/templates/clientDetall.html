@@ -1,0 +1,42 @@
+ 
+
+
+<ion-view view-title="Detall Clients">
+          
+        <ion-content class="has-header">
+        
+        <div class="card" >
+                  <a class="item item-avatar item-button-right" href="#">
+                    <img src="../img/avatar1.jpg"  ng-click="goToClientDetall()">
+                    <h2 >Xavier Barrufet</h2>
+                    <div class="buttons">
+                         <button class="button button-balanced" ng-click="showAlert('Trucant...')">
+                          <i class="icon ion-ios-telephone"></i>
+                        </button>
+                        <button class="button button-energized" ng-click="goToChat()">
+                          <i class="icon ion-chatbubble"></i>
+                        </button>
+                    </div>  
+                </a>   
+            
+        </div>
+       
+          <div class="list list-inset" >
+              <div class="item item-divider">Pendents</div>  
+            <a class="item INCIDENCIA" ng-click="goToJardiView()">  
+                <h3>Castelldefels</h3>
+                <p>22-12-2015</p>
+            </a>
+            <div class="item item-divider">Acabades</div>  
+           <a class="item" ng-click="goToJardiView()">  
+                 <h3>Castelldefels</h3>
+                <p>22-11-2015</p>
+            </a>
+          
+           <a class="item" ng-click="goToJardiView()">  
+                 <h3>Castelldefels</h3>
+                <p>22-10-2015</p>
+            </a>
+        </div>
+           </ion-content>
+        </ion-view>  

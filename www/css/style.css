@@ -1,0 +1,597 @@
+/* Empty. Add your own CSS if you like */
+
+
+.body {
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+
+.marges {
+    margin: 10px;
+}
+
+
+.time
+{
+      display: table;
+      position: relative;
+      height: 20px;  
+      overflow: hidden;
+}
+.vistaDia {
+    margin-top: 1em;
+    margin-left:1em;
+    width: 90%;
+    height: 30px;
+}
+
+.time .timeMes {
+    background-color: #33cd5f;
+    padding: 0px 10px 0px 10px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 12px;
+    color:white;
+    font-weight: 600;
+   
+}
+
+.time .timeDia {
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 12px;
+    color:black;
+    font-weight: bolder;
+  }
+.time .timeSetmana {
+    height: 100%;
+    background-color: #0000dd;
+    padding: 0px 10px 0px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 12px;
+     color:white;
+    font-weight: bolder;
+
+  }
+
+
+.vistaSetmanaTaula {
+    width: 90%;
+    margin: auto;
+}
+
+
+.vistaSetmanaCela {
+     
+    width: 32%;
+     display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+   
+}
+
+.tascaSetmana {
+
+  margin-top: 0.3em;
+  border-left:5px solid #00bb00;    
+  border-bottom:1px solid #dddddd;
+  text-align: center;
+}
+
+
+
+.INCIDENCIA {
+    border-left:10px solid #dd0000;    
+}
+
+.ALERTA {
+    border-left: 10px solid #ffaa00;
+}
+
+.NORMAL {
+    border-left: 10px solid #00bb00;
+}
+
+
+.item .icon .icon-badge {
+  position: absolute;
+  top:8px;
+  right: -8px;
+  font-size: 10px;
+}
+
+
+.scrollVertical{
+  height:30hdv;
+ }
+
+
+/*
+.infoJardi {
+    
+    float:left;
+    postion:relative;
+    vertical-align: middle;
+    width: 90%;
+}
+
+.numTasques {
+    float:right;
+    margin-top: 2%;
+    postion:relative;
+    font-size: 45px;
+    color: #888888;
+}
+
+.vistaSetmanaCela .ALERTA {
+     border-left:5px solid #ffaa00;    
+}
+
+
+
+.ImatgeHeader {
+     width: 360px;
+    padding: 20px;
+     height: 60px;
+     background: url(../img/garden.jpg);
+     border-radius: 10px 10px 10px 10px;
+     border: 1px solid #dddddd;
+     vertical-align: bottom;
+     text-align: right;
+    display: block;
+    margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MainTitle {
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 30px;
+    color:white;
+    font-weight: 800;
+    position: relative;
+    top: 70%;
+    transform: translateY(-70%);
+   
+}
+
+
+.tasques {
+ margin-top: 1em;
+ margin-left:1em;
+ width: 90%;
+     vertical-align: middle;
+}
+
+.container 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    border-left: 10px solid #33cd5f;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 50px solid #eeeeee;
+    vertical-align: middle;
+    display: table;
+    position:relative;
+   
+}
+
+.petit {
+    width:80%;
+    float:right;
+}
+
+.containerTasca 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    border-left: 10px solid #33cd5f;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 50px solid #eeeeee;
+    vertical-align: middle;
+    display: table;
+    position:relative;
+   
+}
+
+.containerCerca 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    border-left: 1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 50px solid #eeeeee;
+    vertical-align: middle;
+    padding-left: 5px;
+    display: table;
+    position:relative;
+   
+}
+
+
+
+.containerClient 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 60px;
+    display: table;
+    position:relative;   
+}
+
+
+
+
+.tasques .INCIDENCIA {
+    border-left: 10px solid #dd0000;
+
+}
+
+.tasques .ALERTA {
+    border-left: 10px solid #ffaa00;
+
+}
+
+.tasques .NOVA_INCIDENCIA {
+    border-left: 10px solid #cccccc;
+    margin-top: 40px;
+}
+
+.tasques .tascaUnitaria{
+    heigh:70px !important;
+
+}
+.InfoJardi {
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.InfoTasca {
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.InfoJardi H1 {
+    margin-left: 20px;
+    font-family: 'Trebuchet MS Bold', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 20px;
+}
+
+.InfoJardi H3 {
+    margin-left: 20px;
+    font-family: 'Verdana', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 10px;
+    color: #aaaaaa;
+}
+
+.InfoTasca H1 {
+    margin-left: 20px;
+    font-family: 'Verdana', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+
+.Tasques {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 45px;
+    width:10%;
+    color: #888888;
+}
+
+.Camera {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    float:right;
+    vertical-align: middle;
+    font-size: 35px;
+    width:10%;
+    color: #888888;
+    position:relative;
+    right:30px;
+}
+
+.Marca {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    position:relative;
+    font-size: 45px;
+    right: -40px;
+   top:20px;
+   color: #888888;
+   float:right;
+}
+
+
+.scan {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    position:relative;
+    font-size: 35px;
+    right: -40px;
+   top:10px;
+   color: #888888;
+   float:right;
+  vertical-align: middle;
+}
+
+.checkTasca {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    position:relative;
+    font-size: 30px;
+    right: -40px;
+   top:5px;
+   color: #888888;
+   float:right;
+  vertical-align: middle;
+  
+
+    
+}
+
+
+
+.numFotos{
+     float:right;
+    color: #ffffff;
+    background:#ff0000;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align:bottom; 
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    z-index: 2;
+    font-weight: bold;
+   
+}
+.avatar {
+    display: table-cell;    
+    vertical-align: middle;
+}
+
+.avatar img {
+    padding:5px;
+    height: 60px;
+    width:60px;
+      display: inline;
+}
+
+.clientIcons 
+{
+    display: table;
+    vertical-align: middle;
+    width: 80%;
+    vertical-align: middle;
+    float:right;   
+}
+
+
+
+.numMessages{
+    float:right;
+    color: #ffffff;
+    background:#ff0000;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align:bottom; 
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+    font-weight: bold;
+   
+}
+*/
+.chat {
+    background:#ffffff;    
+    margin:10px;
+    border:1px solid #dd0000;   
+}
+
+.missatge {
+  position:relative;
+  padding:15px;
+  margin:1em 0 2em;
+  color:#000;
+  background:#f3961c; /* default background for browsers without gradient support */
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+
+.missatge.left {
+   
+  margin-left:10px;
+  margin-right:70px;    
+  background:#2e88c4;
+  color:white;
+}
+
+.missatge.right {
+ margin-right:10px;
+margin-left:70px;     
+background:#f3961c; /* default background for browsers without gradient support */
+  
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+/* creates triangle */
+.missatge:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; /* value = - border-top-width - border-bottom-width */
+ 
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+
+
+/* Variant : left
+------------------------------------------ */
+
+.missatge.left:after {
+  left:20px; /* controls horizontal position */
+   border-color:#2e88c4 transparent;    
+}
+
+/* Variant : right
+------------------------------------------ */
+
+.missatge.right:after {
+  right:20px; /* controls horizontal position */
+   border-color:#f3961c transparent;    
+}
+
+
+.containerMissatge 
+{
+    margin-top: 1em;
+    margin-left:1em;
+    width: 90%;
+    margin-bottom: 5px;
+    height: 10px;
+    vertical-align: middle;
+    padding-left: 5px;
+    display: table;
+}
+
+.missageFoto {
+    display: table-cell;
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 30px;
+    color: #888888;
+    vertical-align: middle;
+}
+
+.texteMissatge 
+{
+    display: table-cell;
+    border-left:1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    vertical-align: middle;
+    width:80%;
+}
+
+.missageEnviar {
+   display: table-cell;
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 30px;
+    color: #888888;
+    vertical-align: middle;
+    text-align: center;
+     border-left:1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    width:10%;
+    background: #dddddd;
+}
+
+.buttoBack {
+   display: table-cell;
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 30px;
+    color: #888888;
+    vertical-align: middle;
+    text-align: center;
+     border-left:1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    width:20%;
+    background: #dddddd;
+}
+
+
+.MarcaBack {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    position:relative;
+    font-size: 45px;
+   height:60px;
+    width:15%;
+   color: #888888;
+   float:left;
+   text-align: center;
+    background: #dddddd;  
+    line-height:60px;
+}
+
+.butoNovaIncidencia {
+    font-family: 'Arial Narrow', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font-size: 45px;
+    height:60px;
+    width:15%;
+    color: #888888;
+   text-align: center;
+   background: #dddddd;  
+   line-height:60px;
+    margin-left:0.3em;
+}
+
+
+.InfoTasca .novaIncidenciaText {
+    position: relative;
+    left:10px;
+    width: 100%;
+}
+
+.InfoTasca .novaIncidenciaText .novaIncidenciaTextArea{
+    width: 100%;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+
+

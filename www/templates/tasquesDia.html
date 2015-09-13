@@ -1,0 +1,84 @@
+   <ion-view view-title="Tasques Dia">
+     <ion-content class="has-header">
+        <!--  <div class="ImatgeHeader">
+            <span class="MainTitle">Task Garden</span>
+          </div>
+          
+         <time datetime="2014-09-20" class="icon">
+                <em>Saturday</em>
+                <strong>September</strong>
+            <span>20</span>
+        </time> -->
+        
+      <ion-slide-box show-pager="false" on-slide-changed="slideChanged(index)" >
+        <ion-slide>  
+            
+        <div class="time vistaDia">
+                <div class="timeMes"><span>Septembre</span></div>
+                <div class="timeDia"><spam>24</spam>, Dissabte</div>
+                <div class="timeSetmana" ng-click="goToSetmanaView()">Setmana 32</div > 
+        </div>   
+                 
+        <div class="list list-inset" >
+            
+           <a class="item INCIDENCIA item-button-right" href="#"> 
+               <div ng-click="goToJardiView()"> 
+                   <h2>C/ Joan Balaguer 32</h2>
+                   <h3>Castelldefels</h3>
+                    <p>Xavier Barrufet</p>
+                </div>  
+               <button class="button button-balanced" >
+                    <i class="icon ion-earth"></i>
+               </button>
+              
+            </a>
+          
+             <a class="item ALERTA item-button-right" href="#"> 
+               <div  ng-click="goToJardiView()"> 
+                   <h2>C/ Jaume I 40</h2>
+                   <h3>Montcada I reixach</h3>
+                    <p>Jordi Martinez</p>
+                </div>   
+                 <button class="button button-balanced" >
+                    <i class="icon ion-earth"></i>
+               </button>
+            </a>
+          
+            <a class="item NORMAL item-button-right" href="#" > 
+               <div ng-click="goToJardiView()"> 
+                    <h2>C/ Ganduxer 14</h2>
+                   <h3>Barcelona</h3>
+                    <p>Laia Montfort</p>
+                </div>   
+               <button class="button button-balanced" >
+                    <i class="icon ion-earth"></i>
+               </button>
+            </a>
+        </div>
+        </div>      
+        </ion-slide>    
+         <ion-slide>   
+           <div class="time vistaDia">
+                <div class="timeMes"><span>Septembre</span></div>
+                <div class="timeDia"><spam>25</spam>, Dissabte</div>
+                <div class="timeSetmana" ng-click="goToSetmanaView()">Setmana 32</div > 
+        </div>   
+                 
+        <div class="list list-inset" >
+            
+           <a class="item INCIDENCIA item-button-right" href="#"> 
+               <div > 
+                   <h2>C/ Joan Balaguer 32</h2>
+                   <h3>Castelldefels</h3>
+                    <p>Sean Oriley</p>
+                </div>   
+                <button class="button button-balanced" >
+                    <i class="icon ion-earth"></i>
+               </button>
+            </a>
+             </div>    
+        </ion-slide>   
+            
+        </ion-slide-box>    
+    </ion-content>    
+</ion-view>  

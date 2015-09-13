@@ -1,0 +1,62 @@
+   <ion-view view-title="Tasques Jardi">
+       <ion-content class="has-header">
+      
+      
+        <div class="time vistaDia">
+                <div class="timeMes"><span>Septembre</span></div>
+                <div class="timeDia"><spam>24</spam>, Dissabte</div>
+                <div class="timeSetmana" ng-click="goToSetmanaView()">Setmana 32</div > 
+            </div>   
+       
+       
+         <div class="card" >
+                  <a class="item item-avatar item-button-right" href="#" ng-click="goToClientDetall()">
+                    <img src="../img/avatar1.jpg">
+                    <h2>Xavier Barrufet</h2>
+                      <p>Castelldefels</p>    
+                         <button class="button button-balanced" ng-click="showAlert('Trucant...')">
+                          <i class="icon ion-android-exit"></i>
+                        </button>
+                </a>   
+            
+        </div>
+       
+
+        <div class="list list-inset">
+          <div class="item INCIDENCIA item-icon-left item-icon-right">
+            <i class="icon ion-ios-circle-outline"></i>
+             <h2>Passar gespa</h2>
+            <i class="icon ion-camera" ng-click="goToLlistaFotos()"><span class="badge badge-assertive icon-badge">3</span></i> 
+            </div>
+             <div class="item ALERTA item-icon-left item-icon-right">
+            <i class="icon ion-ios-circle-outline"></i>
+             <h2>Regar</h2>
+            <i class="icon ion-camera"></i> 
+            </div>
+             <div class="item NORMAL item-icon-left item-icon-right">
+            <i class="icon ion-ios-circle-outline"></i>
+             <h2>Podar Tanca</h2>
+            <i class="icon ion-camera"></i> 
+            </div>
+             <div class="item NORMAL item-icon-left item-icon-right">
+            <i class="icon ion-ios-circle-outline"></i>
+             <h2>Treure fulles</h2>
+            <i class="icon ion-camera" ng-click="goToLlistaFotos()"></i> 
+            </div>
+        
+        </div>
+           
+         <div class="bar  item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-alert placeholder-icon"></i>
+    <input type="search" placeholder="Nova Incidencia">
+  </label>
+     <button class="button ion-plus-circled">
+     </button> 
+</div>   
+      </ion-content>       
+     
+        
+      
+          
+        </ion-view>  
